@@ -1,0 +1,36 @@
+│
+├── ILS.Presentation
+│   ├── Connected Services
+│   ├── Dependencies
+│   ├── Properties
+│   ├── wwwroot
+│   ├── Areas
+│   │   ├── AdminArea
+│   │   ├── LogInsArea
+│   │   ├── RegistrationArea
+│   │   └── UserArea
+│   ├── Views
+│   ├── appsettings.json
+│   ├── ConfigurationServices.cs
+│   ├── libman.json
+│   ├── Program.cs
+│   ├── ScaffoldingReadMe.txt
+│   └── Startup.cs
+│
+├── ILS.Application
+│   ├── Dependencies
+│   ├── Services
+│   ├── UseCases
+│   └── Interfaces
+│
+├── ILS.Domain
+│   ├── Entities
+│   ├── ValueObjects
+│   ├── Interfaces
+│   └── Aggregates
+│
+└── ILS.Infrastructure
+    ├── Dependencies
+    ├── Repositories
+    ├── Data
+    └── ExternalServices
